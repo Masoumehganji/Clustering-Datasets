@@ -1,0 +1,215 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyM4Tj9OI3rgJkH6DJBNnAdC",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Masoumehganji/Clustering-Datasets/blob/master/j3\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 5,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IzlAMa51W3ME",
+        "outputId": "0bc19a2b-d4b4-4b0c-d439-8ce6ea866111"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "masoumeh\n"
+          ]
+        }
+      ],
+      "source": [
+        "l=open(\"m.txt\")\n",
+        "readf=l.read()\n",
+        "print(readf)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "o=open(\"p.txt\",\"w\")\n",
+        "o.write(\"nima\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1g3ewxDPYVqt",
+        "outputId": "df4ab67a-0452-4012-d272-50276f847a2f"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "4"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 10
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "LcLGO7muZqFB"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "ot=open(\"3.txt\",\"w\")\n",
+        "ot.write(\"nima\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5xFNSIoxZYbl",
+        "outputId": "b7d6c81f-a9a8-43d6-d908-2e4618bfde21"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "4"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 18
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "v=open(\"4.txt\",\"x\")"
+      ],
+      "metadata": {
+        "id": "lGnZz7lBaNYP"
+      },
+      "execution_count": 19,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "v.write(\"ali\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "73x5MF0JaWqt",
+        "outputId": "440c8a54-667b-46a4-fbd4-2b9dce37561e"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "3"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 20
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "v=open(\"4.txt\",\"w\")\n",
+        "v.write(\"ali\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BJRp5l32ajr8",
+        "outputId": "99246e0d-0015-4312-9069-2e0c68aa172c"
+      },
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "3"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 23
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import matplotlib.pyplot as plt"
+      ],
+      "metadata": {
+        "id": "tJRM9ycqayP-"
+      },
+      "execution_count": 24,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "plt.plot([1,5,7,3],[1,2,3,4],'o')\n",
+        "plt.show()"
+      ],
+      "metadata": {
+        "id": "aobeFpIfgi5F"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "ND1i0LPJlyN-"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
